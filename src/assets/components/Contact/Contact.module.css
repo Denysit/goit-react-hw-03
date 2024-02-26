@@ -1,6 +1,8 @@
 .contactInfo {
-
+display: flex;
+    align-items: left;
     margin-right: auto;
+    flex-direction: column;
 }
 
 .icon {
@@ -9,23 +11,18 @@
 }
 
 
-
-.iconContainer {
-    display: flex;
-    align-items: center;
-}
-
 .icon {
     margin-right: 10px;
 }
 
 .deleteButton {
-    padding: 5px 10px;
     background-color: #dc3545;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .deleteButton:hover {
@@ -34,4 +31,5 @@
 
 .text {
 margin: 0;
+text-align: left;
 }

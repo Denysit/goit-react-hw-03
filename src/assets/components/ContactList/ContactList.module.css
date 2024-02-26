@@ -4,6 +4,17 @@
     border-radius: 5px;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
-    width: auto;
+    width: 300px;
+    justify-content: space-between;
+    
 }
+.contactList {
+    display: flex;
+    padding: 0;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
